@@ -47,7 +47,7 @@ namespace DS4Windows
             public byte[] Rumble = new byte[8];
         }
 
-        private X360Data[] processingData = new X360Data[3];
+        private X360Data[] processingData = new X360Data[4];
 
         void GetPadDetailForIdx(int padIdx, ref DualShockPadMeta meta)
         {
